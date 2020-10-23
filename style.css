@@ -1,0 +1,25 @@
+h1 {
+    color:rgba(65, 21, 189, 0.281);
+    border: thin;
+}  
+* {
+    background-color: darkturquoise;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-content: space-between;
+}
